@@ -1,0 +1,100 @@
+{
+  "version": "practice-v1",
+  "items": [
+    {
+      "id": "q-matter-1",
+      "topic": "Matter",
+      "prompt": "Which description matches matter?",
+      "choices": [
+        "Anything that has mass and takes up space",
+        "Only things you can see",
+        "Anything that gives off light",
+        "Only solids and liquids"
+      ],
+      "answerIndex": 0,
+      "explain": "Matter has mass and volume. Light and sound are not matter."
+    },
+    {
+      "id": "q-atom-1",
+      "topic": "Atoms",
+      "prompt": "The smallest unit that keeps the properties of an element is a:",
+      "choices": ["Cell", "Atom", "Molecule", "Mixture"],
+      "answerIndex": 1,
+      "explain": "An atom is the basic unit of an element."
+    },
+    {
+      "id": "q-nucleus-1",
+      "topic": "Atomic structure",
+      "prompt": "Where are protons found in an atom?",
+      "choices": ["In the nucleus", "In electron shells", "Between atoms", "Outside the atom"],
+      "answerIndex": 0,
+      "explain": "Protons and neutrons are in the nucleus."
+    },
+    {
+      "id": "q-charge-1",
+      "topic": "Atomic structure",
+      "prompt": "What is the charge of an electron?",
+      "choices": ["Positive", "Negative", "Neutral", "Depends on the element"],
+      "answerIndex": 1,
+      "explain": "Electrons have a negative charge."
+    },
+    {
+      "id": "q-element-1",
+      "topic": "Elements and compounds",
+      "prompt": "Which is an element?",
+      "choices": ["Oxygen (O)", "Water (H2O)", "Saltwater", "Carbon dioxide (CO2)"],
+      "answerIndex": 0,
+      "explain": "Oxygen is made of one type of atom."
+    },
+    {
+      "id": "q-compound-1",
+      "topic": "Elements and compounds",
+      "prompt": "A compound is best described as:",
+      "choices": [
+        "Two or more elements chemically bonded in a fixed ratio",
+        "Two or more substances mixed in any ratio",
+        "A single atom",
+        "A substance that can be separated using a filter"
+      ],
+      "answerIndex": 0,
+      "explain": "Compounds have chemical bonds and a fixed composition."
+    },
+    {
+      "id": "q-mixture-1",
+      "topic": "Mixtures",
+      "prompt": "A mixture is:",
+      "choices": [
+        "A combination of substances not chemically bonded",
+        "A substance made of one element only",
+        "Always a pure substance",
+        "A new substance formed by a reaction"
+      ],
+      "answerIndex": 0,
+      "explain": "Mixtures are physical combinations, not new substances."
+    },
+    {
+      "id": "q-homogeneous-1",
+      "topic": "Mixtures",
+      "prompt": "Which example is a homogeneous mixture?",
+      "choices": ["Salt dissolved in water", "Trail mix", "Sand and iron filings", "Oil and water"],
+      "answerIndex": 0,
+      "explain": "A homogeneous mixture looks uniform throughout."
+    },
+    {
+      "id": "q-physical-chemical-1",
+      "topic": "Changes",
+      "prompt": "Which is a chemical change?",
+      "choices": ["Ice melting", "Paper tearing", "Iron rusting", "Salt dissolving in water"],
+      "answerIndex": 2,
+      "explain": "Rusting forms new substances (iron oxides)."
+    },
+    {
+      "id": "q-separation-1",
+      "topic": "Separation",
+      "prompt": "Which method is best to recover salt from saltwater?",
+      "choices": ["Evaporation", "Filtration", "Magnetism", "Sieving"],
+      "answerIndex": 0,
+      "explain": "Evaporation removes the water and leaves salt behind."
+    }
+  ]
+}
