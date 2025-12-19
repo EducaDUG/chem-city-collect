@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Chem City Collect</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="title">Chem City Collect</div>
+    <div class="hud">
+      <div>Collected: <span id="collectedCount">0</span>/<span id="totalCount">0</span></div>
+      <div>Correct: <span id="correctCount">0</span> | Wrong: <span id="wrongCount">0</span></div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <canvas id="game" width="960" height="540" aria-label="Game canvas"></canvas>
+
+    <section class="panel">
+      <div class="panel-row">
+        <button id="btnRestart" type="button">Restart run</button>
+        <button id="btnResetProgress" type="button">Reset saved progress</button>
+      </div>
+      <div class="hint">
+        Controls: Arrow keys or WASD. Drive into a glowing item to answer a question. Correct answer collects it.
+      </div>
+      <div class="small">
+        Teacher note: Questions load from questions.practice.json. Replace with your own practice bank. Avoid using your live assessment questions.
+      </div>
+    </section>
+  </main>
+
+  <div id="quizModal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="quizTitle">
+    <div class="modal-card">
+      <div class="modal-head">
+        <div id="quizTitle" class="modal-title">Question</div>
+        <div id="quizProgress" class="modal-subtitle"></div>
+      </div>
+
+      <div id="quizPrompt" class="modal-prompt"></div>
+
+      <div id="choices" class="choices"></div>
+
+      <div class="modal-actions">
+        <div id="feedback" class="feedback" aria-live="polite"></div>
+        <button id="btnContinue" type="button" class="hidden">Continue</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>
